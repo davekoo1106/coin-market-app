@@ -39,7 +39,7 @@ export default function App() {
           }}
         />
         <Tab.Screen 
-          name="Search"
+          name="Portfolio"
           component={PortfolioScreen}
           options={{
             tabBarLabel: 'Portfolio',

@@ -18,22 +18,6 @@ export default function PortfolioScreen ({ navigation }) {
 
         return (
             <View className="mt-8">
-                <View>
-                    <SearchBar 
-                        placeholder='Search assets'
-                        onChangeText={this.onChangeText}
-                        // spinnerVisibility={spinnerVisibility}
-                    />
-                </View>
-
-                <View className="m-8">
-                    <Text className="text-2xl mt-5">Suggestions..</Text>
-                    <View className="gap-y-6 mt-2 p-3">
-                        <Text className="text-lg">Popular</Text>
-                        <Text className="text-lg">Trending</Text>
-                        <Text className="text-lg">New Events</Text>
-                    </View>
-                </View>
             </View>
         )
     }
